@@ -4,8 +4,8 @@ OBJ = hello.o
 CXX = g++
 CXXFLAGS = -std=c++17
 $(BIN): $(OBJ)
-$(CXX) $(OBJ) -o $(BIN) $(CXXFLAGS)
+	$(CXX)	$(OBJ) -o $(BIN) $(CXXFLAGS)
 run: $(BIN)
-$(BIN)
+	$(BIN)
 $(OBJ): $(SOURCE)
-$(CXX) -c $(SOURCE) -o $(OBJ) $(CXXFLAGS)
+	$(CXX) -c $(SOURCE) -o $(OBJ) $(CXXFLAGS)
