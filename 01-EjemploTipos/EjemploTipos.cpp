@@ -10,8 +10,8 @@ using namespace std::literals;
 
 int main()
 {
-	//Asserts para datos de tipo booleano
-	assert(true);
+    //Asserts para datos de tipo booleano
+    assert(true);
     assert(false==false);
     assert(true!=false);
     assert(not false);
